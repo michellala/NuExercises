@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Michelle"]
   spec.email         = ["alarie.michelle@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "Tests for Quotator ruby gem"
+  spec.description   = "Testing Quotator performance"
+  spec.homepage      = "http:wwww/ifIhaveahomepage.com"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -21,6 +21,8 @@ Gem::Specification.new do |spec|
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
+
+      spec.add_development_dependency 'rspec'
   end
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
