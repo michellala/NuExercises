@@ -23,23 +23,34 @@ require 'quotator'
 # end
 
 describe Quotator::Customer do
-  it "something" do
-    expect(Quotator::Customer.portray("Pharma")).to eql("Pharma Charge!")
-  end
-  it "Is an electronic" do
-    expect(Quotator::Customer.portray("Electronics")).to eql("Electronics")
-  end
 
-describe "servicecharge" do
-  it "takes two numbers" do
-    expect(Quotator::Customer.servicecharge(2,3)).to eq(6)
-  end
 
-describe "baseprice" do
-    it "takes numbers" do
-      expect(Quotator::Customer.baseprice(200,:markup)).to eq(100)
-    end
-  end
-
+it "returns with initial markup" do
+  expect(Quotator::Customer.initialmarkup).to eql(1364.99)
 end
 end
+
+
+
+#   it "something" do
+#     expect(Quotator::Customer.portray("Pharma")).to eql("Pharma Charge!")
+#   end
+#   it "Is an electronic" do
+#     expect(Quotator::Customer.portray("Electronics")).to eql("Electronics")
+#   end
+#
+# describe "servicecharge" do
+#   it "takes two numbers" do
+#     expect(Quotator::Customer.servicecharge(2,3)).to eq(6)
+#   end
+#
+# describe "total_quote" do
+#       it "calculates total qupte" do
+#         expect(Quotator::Customer.total_quote(:self.cbaseprice)).to eq(100)
+#       end
+#
+# describe "baseprice" do
+#     it "takes numbers" do
+#       expect(Quotator::Customer.baseprice(200,:markup)).to eq(100)
+#     end
+# end
