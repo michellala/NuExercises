@@ -1,4 +1,5 @@
 # Quotator
+[![BuildStatus](https://travis-ci.org/michellala/NuExercises.svg?branch=master)](https://travis-ci.org/michellala/NuExercises)
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/quotator`. To experiment with that code, run `bin/console` for an interactive prompt.
 
@@ -38,4 +39,3 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
