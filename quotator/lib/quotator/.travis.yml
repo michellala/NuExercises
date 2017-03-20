@@ -3,4 +3,4 @@ language: ruby
 rvm:
   - 2.3.0
 cache: bundler
-script: 'bundle exec rspec spec'
+script: 'sudo bundle exec rspec spec'
