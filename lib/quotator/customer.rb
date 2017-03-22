@@ -1,4 +1,3 @@
-
 module Quotator
 
 class Customer
@@ -6,7 +5,10 @@ class Customer
 
 #the data would be supplied from the pre-existing calculator outlined in the problem
     def self.data
-      @data = {'baseprice' => 1299.99 , 'service' => [3, 'workers'] , 'pkging' => 'food' }
+      #First test input: @data = {'baseprice' => 1299.99 , 'service' => [3, 'workers'] , 'pkging' => 'food' }
+      #Second test input: @data = {'baseprice' => 5432.00 , 'service' => [1, 'workers'] , 'pkging' => 'drugs' }
+      #below is for the Third test:
+      @data = {'baseprice' => 12456.95 , 'service' => [4, 'workers'] , 'pkging' => 'books' }
     end
 
     def self.initialmarkup
@@ -33,7 +35,7 @@ class Customer
         elec = initialmarkup * 0.02
         elec.round(2)
       else
-        none = initialmarkup * 0
+        none = initialmarkup.floor * 0
         none
       end
     end

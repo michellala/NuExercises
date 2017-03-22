@@ -9,28 +9,53 @@ A Ruby Gem to calculate quotes for customers.
 
 
 ## Installation/Download
-TODO: Include link
-####TODO: "Suported Ruby versions are listed in .travis.yml"---do
 
-Add this line to your application's Gemfile:
+1. git clone https://github.com/michellala/NuExercises.git
 
-```ruby
-gem 'quotator'
-```
+2. Build the gem:
+  cd NuExercises && gem build quotator.gemspec
 
-And then execute:
+3. Install it:
+  sudo gem install NuExercises
 
-    $ bundles
+Note: You will still need to '$ bundle install' for any dependencies.
 
-Or install the gem:
+  Another option:
 
-    $ gem install quotator
+1. In your gemfile, include:
+  git 'https://github.com/michellala/NuExercises.git' do
+  gem 'quotator'
+  end
 
-## Usage
+2. In terminal:
+  $ bundle install
 
-TODO: Write usage instructions here
 
-## Development
+##Development Dependencies
+
+This gem requires:
+"bundler", "~> 1.14"
+"rake", "~> 10.0"
+"rspec", "~> 3.0"
+
+Using Bundler and the command '$ bundle install' will take care of the above for you. If you do not have Bundler, you can either download it or download the gems specified above individually.
+
+Bundler(Highly advised):
+https://github.com/bundler/bundler/
+
+
+
+## Running the tests
+
+The tests for this gem are found in the quotator.gemspec
+Once you have the gem downloaded (along with any dependencies), go into the folder and run the rspec tests.
+  $ cd NuExercises  //brings me into the folder for the gem
+  $ bundle exec rspec spec
+
+For the purpose of this coding challenge, I stubbed information to demonstrate the type of input that I would expect from the pre-exiting program that my gem would be used with.
+
+
+## Another Option for Installing and Running Tests
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
@@ -38,7 +63,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/quotator. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/michellala/quotator. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License

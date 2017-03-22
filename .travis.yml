@@ -1,0 +1,6 @@
+sudo: 'required'
+language: ruby
+rvm:
+  - 2.3.0
+cache: bundler
+script: 'bundle exec rspec spec'
