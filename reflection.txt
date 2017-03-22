@@ -1,0 +1,6 @@
+
+
+TODO:
+
+
+Please also include a reflection on submission (you can create a text file and include it somewhere in the repo.) The intent here is to give you an opportunity to comment on your submission. As such, there’s no formal requirements. However, you might consider commenting on what other design options you considered, and what principles guided certain decisions. Also, if there are aspects of your implementation that you had questions about, feel free to discuss that here.
