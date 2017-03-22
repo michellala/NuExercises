@@ -34,9 +34,9 @@ Note: You will still need to '$ bundle install' for any dependencies.
 ##Development Dependencies
 
 This gem requires:
-bundler, ~> 1.14
-rake, ~> 10.0
-rspec, ~> 3.0
+bundler ~> 1.14,
+rake ~> 10.0,
+rspec ~> 3.0,
 
 Using Bundler and the command '$ bundle install' will take care of the above for you. If you do not have Bundler, you can either download it or download the gems specified above individually.
 

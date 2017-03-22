@@ -1,8 +1,6 @@
 module Quotator
-
+#If I wanted to use this with an existing program, then I would access their class(es) for customers and their data.
 class Customer
-  # attr_accessor :data
-
 #the data would be supplied from the pre-existing calculator outlined in the problem
     def self.data
       #First test input: @data = {'baseprice' => 1299.99 , 'service' => [3, 'workers'] , 'pkging' => 'food' }
