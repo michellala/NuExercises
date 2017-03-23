@@ -1,5 +1,5 @@
 
-  MY GEM: QUOTATOR (a calculator for quotes!)
+  # MY GEM: QUOTATOR (a calculator for quotes!)
 
   I have never made a gem before, but was very excited with the challenge.I spent a lot of time getting carried away in the details. This is a weakness of mine: I overthink the problem and then spend a lot of time trying to figure that out (for example: in this exercise I was making a customer database with SQL that I was going to reference). I was quickly getting off-track with trying to better understand the calculating program that the user would be using, that I was in the process of building that app and not the gem.
 
