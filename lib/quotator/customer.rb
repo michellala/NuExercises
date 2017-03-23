@@ -1,7 +1,6 @@
 module Quotator
-#If I wanted to use this with an existing program, then I would access their class(es) for customers and their data.
 class Customer
-#the data would be supplied from the pre-existing calculator outlined in the problem
+#the data would be supplied from the pre-existing calculator outlined in the problem. I used class self.methods to make testing easier, but would need these to be instance methods if it were actually used with an existing program with many instances of Customer.
     def self.data
       #First test input: @data = {'baseprice' => 1299.99 , 'service' => [3, 'workers'] , 'pkging' => 'food' }
       #Second test input: @data = {'baseprice' => 5432.00 , 'service' => [1, 'workers'] , 'pkging' => 'drugs' }
