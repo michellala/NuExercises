@@ -1,13 +1,9 @@
 
-
-TODO:
-
-
-Please also include a reflection on submission (you can create a text file and include it somewhere in the repo.) The intent here is to give you an opportunity to comment on your submission. As such, there’s no formal requirements. However, you might consider commenting on what other design options you considered, and what principles guided certain decisions. Also, if there are aspects of your implementation that you had questions about, feel free to discuss that here.
-
+MY GEM: QUOTATOR (a calculator for quotes!)
 
 I have never made a gem before, but was very excited with the challenge.I spent a lot of time getting carried away in the details. This is a weakness of mine: I overthink the problem and then spend a lot of time trying to figure that out (for example: in this exercise I was making a customer database with SQL that I was going to reference). I was quickly getting off-track with trying to better understand the calculating program that the user would be using, that I was in the process of building that app and not the gem.
-
+<p>
+<br>
 Thankfully, after getting some clarification, I tackled the problem so that the user could get a fast quote based on the parameters discussed in the problem.
 
 Assuming that the user already has existing customer information (which I stubbed), then if the user had the appropriate data filled out for the customer, then all they would have to do is apply the .finalquote method and "ta-da!". They also have access to the other methods if they were so inclined (ex. customer.initialmarkup to get the customers initial quote with only the 5% markup).
